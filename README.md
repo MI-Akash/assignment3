@@ -42,5 +42,19 @@ ros2 run ecp_pkg ecp
 
 
 
-<b> This python script will save camera frames from the stream to \``images\'' folder.</b>
-<b> Step3: run camera_calibrate.py; it will calibrate the camera configuration from the \``images\'' in the images folder and save \``camera_config.yaml\'' file.</b>
+# Running the ECP Package inside `turtlebot3_behavior_demos` Docker
+
+## Step 1: Build and Launch the Docker Environment
+
+```bash
+# In the cloned turtlebot3_behavior_demos directory:
+docker compose build
+
+# Launch the demo world:
+docker compose up demo-world
+
+# Launch the development container:
+docker compose up dev
+
+# Access the development container:
+docker compose exec -it dev bash
