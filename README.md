@@ -67,4 +67,30 @@ ros2 run ecp_pkg ecp
 [![Watch the video](https://img.youtube.com/vi/gKrJTZa282E/maxresdefault.jpg)](https://youtu.be/gKrJTZa282E)
 
 
+<h2>Task 4: Understand VSLAM</h2>
+<figure>
+    <figcaption><strong>VSLAM with python code runs in KITTI dataset</figcaption>
+    <img src="images/Vslampython.png" alt="Photo 1" width="720">
+    
+</figure>
 
+## Python is prepared for VSLAM and tested on KITTI dataset 
+```bash
+# please download the dataset from KITTI 
+# in task_4_understandVSalam folder, open the vslam3.py 
+# edit the following with your desired path 
+def main():
+
+    # path to the calibration file of the camera
+    calib_file = r"E:\Storage\Academic_study\CS_AI_for_Robotics\Assignment3\data_odometry_gray\dataset\sequences\00\calib.txt"
+    # path to the images from the datatset
+    image_folder = r"E:\Storage\Academic_study\CS_AI_for_Robotics\Assignment3\data_odometry_gray\dataset\sequences\00\image_0"
+    # path to saving output trajectory
+    output_traj_file = r"E:\Storage\Academic_study\CS_AI_for_Robotics\Assignment3\trajectory.txt"
+
+```
+<figure>
+    <figcaption><strong>Trajectory of VSLAM with python code runs in KITTI dataset</figcaption>
+    <img src="images/trajectory.png" alt="Photo 1" width="720">
+    
+</figure>
