@@ -59,4 +59,10 @@ source install/setup.bash
 # Run the node:
 ros2 run ecp_pkg ecp
 
+<h2>Task 3: Showcase StellaVSLAM</h2>
+## Demo Video
+
+[![Watch the video](https://img.youtube.com/vi/gKrJTZa282E/maxresdefault.jpg)](https://youtu.be/gKrJTZa282E)
+
+
 
