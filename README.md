@@ -1,6 +1,6 @@
 <h1>Assignment 3</h1>
 
-## All the codes are in the following folder 
+## All the codes are in the following folders 
 ```bash
 task_1_camera_calibration_ROS
 task_2_apply_camera_calibration_ROS
