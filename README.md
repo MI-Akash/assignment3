@@ -20,7 +20,7 @@
     <img src="images/campos.png" alt="Photo 1" width="720">
     
 </figure>
-<b>
+
 ## Build and Launch the Docker Environment
 
 ```bash
@@ -58,7 +58,7 @@ source install/setup.bash
 
 # Run the node:
 ros2 run ecp_pkg ecp
-</b>
+```
 
 
 <h2>Task 3: Showcase StellaVSLAM</h2>
