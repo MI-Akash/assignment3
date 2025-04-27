@@ -1,4 +1,11 @@
 <h1>Assignment 3</h1>
+## All the codes are in the following folder 
+```bash
+task_1_camera_calibration_ROS
+task_2_apply_camera_calibration_ROS
+task_4_understandVsalam
+```
+
 <h2>Task 1: Camera Calibration (ROS)</h2>
 
 <figure>
@@ -69,7 +76,7 @@ ros2 run ecp_pkg ecp
 
 <h2>Task 4: Understand VSLAM</h2>
 <figure>
-    <figcaption><strong>VSLAM with python code runs in KITTI dataset</figcaption>
+    <figcaption><strong>VSLAM with python code runs on KITTI dataset</figcaption>
     <img src="images/Vslampython.png" alt="Photo 1" width="720">
     
 </figure>
@@ -90,7 +97,7 @@ def main():
 
 ```
 <figure>
-    <figcaption><strong>Trajectory of VSLAM with python code runs in KITTI dataset</figcaption>
+    <figcaption><strong>Trajectory of VSLAM with python code runs on KITTI dataset</figcaption>
     <img src="images/trajectory.png" alt="Photo 1" width="720">
     
 </figure>
