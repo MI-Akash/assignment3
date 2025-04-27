@@ -42,7 +42,7 @@ ros2 run ecp_pkg ecp
 
 
 
-# Running the ECP Package inside `turtlebot3_behavior_demos` Docker
+
 
 ## Step 1: Build and Launch the Docker Environment
 
@@ -58,3 +58,10 @@ docker compose up dev
 
 # Access the development container:
 docker compose exec -it dev bash
+
+# Navigate to the source folder:
+cd src
+
+# Create a new ROS2 Python package:
+ros2 pkg create --build-type ament_python ecp_pkg
+
