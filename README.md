@@ -11,3 +11,17 @@
 <b> Step2: source ros2 then run ros2_cam_strm_saver.py.</b>
 <b> This python script will save camera frames from the stream to \``images\'' folder.</b>
 <b> Step3: run camera_calibrate.py; it will calibrate the camera configuration from the \``images\'' in the images folder and save \``camera_config.yaml\'' file.</b>
+
+
+<h2>Task 2: Apply Camera Calibration (ROS)</h2>
+
+<figure>
+    <figcaption><strong>Estimating camera position in the turtle bot meze environment</figcaption>
+    <img src="images/campos.png" alt="Photo 1" width="720">
+    
+</figure>
+
+<b> Step1: build the doceker in already cloned turtlebot3_behavior_demos. <br>docker compose build <br> run docker compose up demo-world </b>
+<b> Step2: source ros2 then run ros2_cam_strm_saver.py.</b>
+<b> This python script will save camera frames from the stream to \``images\'' folder.</b>
+<b> Step3: run camera_calibrate.py; it will calibrate the camera configuration from the \``images\'' in the images folder and save \``camera_config.yaml\'' file.</b>
